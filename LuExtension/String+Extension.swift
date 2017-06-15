@@ -86,10 +86,10 @@ extension String{
         }
     }
     
-    /// 换换字节
+    /// 转换字节
     ///
-    /// - Parameter value: 字节大小
-    /// - Returns: 返回转换后字节
+    /// - Parameter value: 输入字节大小
+    /// - Returns: 返回转换后字节：KB，MB，GB
     public func transformedValue(_ value:Int) -> String {
         var transformedValue = Double(value)
         var index = 0
